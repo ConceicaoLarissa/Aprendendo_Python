@@ -1,3 +1,5 @@
+import requests
+
 # Autor: Conceição Larissa Barbosa Ferreira
 # Data de Criação: 20/07/2024
 #
@@ -7,7 +9,6 @@
 # faz uma requisição HTTP GET para a API, e imprime os dados retornados se a requisição for bem-sucedida.
 # Em caso de falha na requisição, o bot informa o usuário que a verificação não foi possível.
 
-import requests
 
 def consultar_cnpj(cnpj):
     # Remove caracteres especiais do CNPJ
